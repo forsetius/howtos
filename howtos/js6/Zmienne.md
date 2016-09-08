@@ -1,19 +1,16 @@
 # Javascript ECMAScript 6
 
+- [Zmienne](#zmienne)
+	- [Widoczność](#widoczno)
+	- [Zmienność](#zmienno)
+	- [Przesłanianie](#przesanianie)
+	- [Nagłówki pętli](#nagwki-ptli)
+
 ## Zmienne
 Zmienne i stałe należy najpierw zadeklarować a dopiero później można ich używać.
 
 #### Widoczność
 - **var** - zmienna widoczna w całym bloku funkcji
-```js
-    function func() {
-        if (true) {
-            let tmp = 123;
-        }
-        console.log(tmp); // ReferenceError: tmp is not defined
-    }
-```
-- **let** - zmienna widoczna w danym bloku instrukcji (for, if...)
 ```js
 function func() {
     if (true) {
@@ -22,6 +19,17 @@ function func() {
     console.log(tmp); // 123
 }
 ```
+
+- **let** - zmienna widoczna w danym bloku instrukcji (for, if...)
+```js
+function func() {
+    if (true) {
+        let tmp = 123;
+    }
+    console.log(tmp); // ReferenceError: tmp is not defined
+}
+```
+
 - **const** - stała widoczna w danym bloku instrukcji (for, if...)
 
 #### Zmienność
@@ -34,7 +42,7 @@ obj.prop = 123; // TypeError
 ```
 
 #### Przesłanianie
-Zmienne zadeklarowane przez `var` (widoczne w całym bloku funkcji) mogą być przesłaniane przez zmienne zadeklarowane przez `let`.
+Zmienne zadeklarowane w bloku nadrzędnym mogą być przesłaniane w blokach podrzędnych przez zmienne zadeklarowane przez `let`.
 
 ```js
 function func() {
@@ -48,7 +56,7 @@ function func() {
 ```
 
 #### Nagłówki pętli
-Stałe i zmienne zadeklarowane przez `var` wiążą zmienną dla całej pętli
+`var` w pętli przypisuje zmiennej jedną, stałą referencję na całą pętlę:
 ```js
 let arr = [];
 for (var i=0; i < 3; i++) {
@@ -57,7 +65,7 @@ for (var i=0; i < 3; i++) {
 console.log(arr.map(x => x())); // [3,3,3]
 ```
 
-Zmienne zadeklarowane przez `let` dają nowe wiązanie dla każdej iteracji pętli
+Zmienne zadeklarowane przez `let` przypisują zmiennej nową referencję dla każdej iteracji pętli
 ```js
 let arr = [];
 for (let i=0; i < 3; i++) {

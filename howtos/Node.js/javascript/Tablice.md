@@ -11,7 +11,7 @@ arr.shift();      // usuń pierwszy element
 
 ### Przeszukiwanie
 |   |   |
-|---
+|---|---|
 | `Array.isArray(array)` | Returns true if a variable is an array, false if it is not. |
 | `indexOf(searchElement[, fromIndex])` |	Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found. The search can optionally begin at fromIndex.|
 | `lastIndexOf(searchElement[, fromIndex])` |	Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.The array is searched backwards, starting at fromIndex.
@@ -35,8 +35,9 @@ console.log(arr.indexOf(2+'')); // zwraca 1 (po rzutowaniu na string)
 ```
 
 ### Wywoływanie funkcji dla każdego elementu tablicy
+
 |   |   |
-|---
+|---|---|
 | `filter(callback[, thisObject])` |Creates a new array with all of the elements of this array for which the provided filtering function returns true. If a thisObject parameter is provided to filter, it will be used as the this for each invocation of the callback. IE9|
 | `forEach(callback[, thisObject])` |	Calls a function for each element in the array.|
 | `map(callback[, thisObject])` |	Creates a new array with the results of calling a provided function on every element in this array.|

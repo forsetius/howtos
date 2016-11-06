@@ -1,7 +1,17 @@
 # Apache2
 #### Serwer WWW
 
+## Użycie
+- Włącz, wyłącz, zatrzymaj i włącz, status:
+  `sudo service apache2 start | stop | restart | status`
+- Sprawdź konfigurację:
+  `sudo apache2ctl configtest`
+
 ## Konfiguracja
+Konfiguracja znajduje się w dystrybucjach Debianowych w `/etc/apache2`. DocumentRoot - główny katalog, z którego serwowane są pliki to domyślnie `/var/www/html`.
+
+Moją praktyką jest zakładanie katalogów z poszczególnymi serwowanymi projektami w katalogu domowym i łączenie ich symlinkami z `/var/www/html`.
+
 ### Moduły
 #### DirectoryIndex
 Nazwy plików interpretowane jako index

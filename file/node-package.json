@@ -1,0 +1,26 @@
+{
+  "name": "@eg-node/express",
+  "version": "0.5.0",
+  "description": "Express bundle",
+  "main": "Express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Marcin Paździora",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "lodash": "^4.16.4",
+    "multer": "^1.2.0",
+    "@eg-node/log": "^1"
+  }
+}

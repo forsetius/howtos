@@ -1,0 +1,44 @@
+[user]
+	name = Marcin Paździora
+	email = forseti.pl@gmail.com
+
+[core]
+	editor = mcedit
+
+[diff]
+	tool = cdiff
+
+[alias]
+	a = add .
+	b = branch
+	o = checkout
+	cl = clone
+	c = commit -m
+	cd = commit --amend
+	pl = pull
+	ps = push
+	psom = push origin master
+	psot = push origin --tags
+	s = status
+	t = tag -a -m
+
+	unadd = reset HEAD
+	unstage = reset HEAD
+	ua = reset HEAD
+	us = reset HEAD
+	uncommit = reset --soft HEAD~1
+	uc = reset --soft HEAD~1
+	unversion = rm --cache
+	untrack = rm --cache
+	uv = rm --cache
+	ut = rm --cache
+	scrap = reset --hard HEAD
+	dump = reset --hard HEAD
+
+	sta = stash apply
+	stc = stash clear
+	std = stash drop
+	stl = stash list
+	stp = stash pop
+	sts = stash save
+	stw = stash show

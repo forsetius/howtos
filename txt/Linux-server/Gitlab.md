@@ -20,7 +20,7 @@ Para IP+port może być obsługiwana tylko przez jeden serwer HTTP. Dlatego maj�
     network 192.168.1.0
     ```
 
-    Jeśli dostajemy tylko 1 IP od ISP to raczej dane będą wyglądały tak:
+    Jeśli dostajemy tylko 1 IP od ISP to raczej dane IP będą wyglądały tak:
     ```
     address NOWE.IP.OD.ISP
     netmask 255.255.255.255

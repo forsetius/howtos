@@ -10,6 +10,9 @@
   3. ~~[SSL](txt/Linux-server/ssl.md)~~
   3. ~~[Postgresql](txt/Linux-server/postgresql.md)~~
   4. ~~[Postfix](txt/Linux-server/postfix.md)~~
+  5. [Supervisor](txt/Linux-server/supervisor.md)
+  6. [Node.js](txt/Linux-server/node-js.md)
+    1. [Verdaccio](txt/Linux-server/verdaccio.md) - prywatne repozytorium NPM
 * ~~[Markdown](txt/markdown.md)~~
 * Symfony
   * [Composer](./Symfony/Composer.md)

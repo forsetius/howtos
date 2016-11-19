@@ -41,18 +41,6 @@ Dodanie wszystkich plików w danym katalogu i podkatalogach do staging area:
 git add .
 ```
 
-Usunięcie plików ze staging area (nie będą commitowane):
-```bash
-git reset HEAD [<file>]
-git unstage [<file>]      # alias w .bashrc
-```
-
-Wyjęcie pliku spod wersjonowania - plik przestanie być śledzony przez Gita:
-```bash
-git rm --cached <file>
-git unversion <file>      # alias w .bashrc
-```
-
 Wysłanie plików ze staging area do lokalnego repozytorium:
 ```bash
 git commit -m "Opis commita"
@@ -76,10 +64,36 @@ git add plik.txt        # dodajemy plik
 git commit --amend      # nowy commit zawierający plik.txt zastępuje poprzedni commit
 ```
 
+# Tagowanie
+
+Dodanie taga do ostatniego commita:
+```bash
+git tag -a -m "Opis Taga" <tag>
+```
+
+Wysłanie taga na zdalny serwer:
+```bash
+git push <remote> --tags
+```
+
+## Undo
+
+Usunięcie plików ze staging area (nie będą commitowane):
+```bash
+git reset HEAD [<file>]
+git unstage [<file>]      # alias
+```
+
+Wyjęcie pliku spod wersjonowania - plik przestanie być śledzony przez Gita:
+```bash
+git rm --cached <file>
+git unversion <file>      # alias
+```
+
 Wycofanie commita i pozostawienie nienaruszonego stage'a i plików. Cofnięty jest sam fakt scommitowania:
 ```bash
 git reset --soft HEAD~1
-git uncommit               # alias w .bashrc
+git uncommit               # alias
 ```
 
 TODO Zresetowanie commita lokalnego (przed wysłaniem na zdalny serwer) do stanu zachowanego w repozytorium zdalnym:
@@ -94,7 +108,9 @@ git config --global user.email "forseti.pl@gmail.com"
 git config --global user.name "Marcin FORSETI Paździora"
 ```
 
-Zdefiniowanie zdalnego repozytorium w systemie lokalnym
+Konfiguracja jest zapisywana w pliku [~/.gitconfig](../file/gitconfig).
+
+Zdefiniowanie zdalnego repozytorium (remote, np. `origin`) w systemie lokalnym
 ```bash
 git remote add <nazwa-połączenia> <adres-zdalnego-repozytorium>
 ```
@@ -111,7 +127,7 @@ Wysłanie plików z lokalnego do zdalnego repozytorium
 git push -u <nazwa-połączenia> <nazwa-gałęzi>
 ```
 
-Przywrócenie commita w zdanym repozytorium. Nie kasuje pośrednich commitów tylko kopiuje żądany commit na koniec historii.
+Przywrócenie commita w zdalnym repozytorium. Nie kasuje pośrednich commitów tylko kopiuje żądany commit na koniec historii.
 ```bash
 git revert <commit>
 git revert HEAD~1      # przywróć przedostatni commit

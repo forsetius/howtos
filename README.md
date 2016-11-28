@@ -6,6 +6,7 @@
   2. [APT Cacher](txt/Linux-server/apt-cacher.md)
   1. [DNS](txt/Linux-server/dns.md)
   2. [Apache](txt/Linux-server/apache.md)
+  3. [Nginx](txt/Linux-server/nginx.md)
   3. [Gitlab](txt/Linux-server/Gitlab.md)
   3. ~~[SSL](txt/Linux-server/ssl.md)~~
   3. ~~[Postgresql](txt/Linux-server/postgresql.md)~~

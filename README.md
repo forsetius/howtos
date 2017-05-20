@@ -14,6 +14,7 @@
   4. Serwery sieciowe
     1. [Apache](txt/Linux-server/apache.md)
       1. ~~[SSL](txt/Linux-server/ssl.md)~~
+    3. [Nginx](txt/Linux-server/nginx.md)
     2. ~~[Postgresql](txt/Linux-server/postgresql.md)~~
     3. [Gitlab](txt/Linux-server/Gitlab.md)
     4. ~~[Postfix](txt/Linux-server/postfix.md)~~
@@ -24,8 +25,9 @@
   5. [Supervisor](txt/Linux-server/supervisor.md)
   6. [Node.js](txt/Linux-server/node-js.md)
     1. [Verdaccio](txt/Linux-server/verdaccio.md) - prywatne repozytorium NPM
-* ~~[Markdown](txt/markdown.md)~~
+* Markup
+  * ~~[Markdown](txt/markdown.md)~~
+  * [YAML](txt/yaml.md)
 * Symfony
   * [Composer](./Symfony/Composer.md)
 * [Node.js](txt/Node.js)
-* [YAML](txt/yaml.md)

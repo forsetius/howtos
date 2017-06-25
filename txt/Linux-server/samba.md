@@ -16,6 +16,11 @@ Plik `/etc/samba/smb.conf`:
     server role = standalone server
 ;    os version = 255                  # dla głównego serwera
     os version = 33                   # dla innych serwerów
+
+# Security
+    usershare allow guests = yes
+    security = user
+    
 ```
 
 Dalej konfigurujemy za pomocą `system-config-samba`.
@@ -26,3 +31,8 @@ touch /etc/libuser.conf
 chmod 777 /etc/libuser.conf
 system-config-samba
 ```
+
+## Restart
+sudo service smbd restart
+sudo service nmbd restart
+sudo service winbindd restart

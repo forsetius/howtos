@@ -65,6 +65,8 @@ Klucze:
   - `"1.2.3"` - dokładnie wersja `1.2.3`
   - `"^1.2.3"` - wersja nie mniejsza niż `1.2.3` i mniejsza niż `2.0`
   - `"~1.2.3"` - wersja nie mniejsza niż `1.2.3` i mniejsza niż `1.3`
+  - `dev-<nazwa-brancha>` - HEAD gałęzi `nazwa-brancha`, np. `dev-new-features`
+  - `<nazwa-brancha>-dev`- jeśli `nazwa-brancha` wygląda jak nazwa taga (np. `v1`) to używamy tej składni. Jeśli nazwa gałęzi nie zawiera liter to składnia jest: `<nazwa-brancha>.x-dev`
   - `"*"` - dowolna wersja
 
   Dodatkowo powinno się podać wymaganą wersję PHP i jego rozszerzeń:

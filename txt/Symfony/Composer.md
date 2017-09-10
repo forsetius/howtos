@@ -11,11 +11,11 @@ Sprawdzenie, czy działa: `composer -V`.
 
 W głównym katalogu projektu trzeba stworzyć plik konfiguracyjny dla projektu.
 
-Przykładowe szablony:
+**Przykładowe szablony**:
 * [dla projektu Symfony](../../file/symfony-project-composer.json)
 * [dla biblioteki Symfony](../../symfony-library-composer.json)
 
-Klucze:
+**Klucze**:
 - `name` - nazwa projektu w formacie `vendor/project`
 - `type` - rodzaj paczki: `project` - projekt, `library` - biblioteka, którą Composer skopiuje do vendor/
 - `licence` - licencja, np: `proprietary` - własnościowy, closed source, `MIT` itd.
@@ -61,7 +61,7 @@ Klucze:
   3. pojedyncza paczka - trzeba podać tutaj całą definicję paczki, bo może nie mieć swojego `composer.json`
 - `require` i `require-dev` - zależności potrzebne w środowisku produkcyjnym i dodatkowe potrzebne w środowisku deweloperskim. Dla każdej zależności podaje się wpis: `"vendor/package-name": "version"`.
 
-  Oznaczenia wersji:
+##  Oznaczenia wersji:
   - `"1.2.3"` - dokładnie wersja `1.2.3`
   - `"^1.2.3"` - wersja nie mniejsza niż `1.2.3` i mniejsza niż `2.0`
   - `"~1.2.3"` - wersja nie mniejsza niż `1.2.3` i mniejsza niż `1.3`
@@ -69,12 +69,12 @@ Klucze:
   - `<nazwa-brancha>-dev`- jeśli `nazwa-brancha` wygląda jak nazwa taga (np. `v1`) to używamy tej składni. Jeśli nazwa gałęzi nie zawiera liter to składnia jest: `<nazwa-brancha>.x-dev`
   - `"*"` - dowolna wersja
 
-  Dodatkowo powinno się podać wymaganą wersję PHP i jego rozszerzeń:
-  ```json
-  {
-    "php" : ">=5.6",
-    "ext-curl" : "*"
-  }
-  ```
-  Listę zainstalowanych rozszerzeń można uzyskać przez `composer show --platform`
+Dodatkowo powinno się podać wymaganą wersję PHP i jego rozszerzeń:
+```json
+{
+  "php" : ">=5.6",
+  "ext-curl" : "*"
+}
+```
+Listę zainstalowanych rozszerzeń można uzyskać przez `composer show --platform`
 -

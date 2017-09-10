@@ -1,4 +1,4 @@
-# HOWTOs
+∞# HOWTOs
 
 * [Git](txt/git.md)
 * Serwer linuksowy
@@ -26,8 +26,16 @@
   6. [Node.js](txt/Linux-server/node-js.md)
       1. [Verdaccio](txt/Linux-server/verdaccio.md) - prywatne repozytorium NPM
 * Markup
-  * ~~[Markdown](txt/markdown.md)~~
+  * MarkDown
+    * [Formatowanie tekstu](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+    * [Format tabel](https://help.github.com/articles/organizing-information-with-tables/)
   * [YAML](txt/yaml.md)
 * Symfony
   * [Composer](./Symfony/Composer.md)
+  * EasyAdmin
+    * [Akcje globalne]
+    * [Eksport CSV]
+  * Twig
+    * [Rozszerzenia i filtry](txt/Symfony/Twig/Rozszerzenia-i-filtry.md)
+    * [Zmienne globalne](txt/Symfony/Twig/Zmienne-globalne.md)
 * [Node.js](txt/Node.js)

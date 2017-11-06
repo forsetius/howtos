@@ -3,7 +3,7 @@
 * [Git](txt/git.md)
 * Serwer linuksowy
   1. Pakiety
-      2. [APT Cacher](txt/Linux-server/apt-cacher.md)
+      1. [APT Cacher](txt/Linux-server/apt-cacher.md)
   2. Sieć
       1. DHCP
       2. [DNS](txt/Linux-server/dns.md)
@@ -21,15 +21,20 @@
   5. Serwery plików
       1. FTP
       2. [Samba](txt/Linux-server/samba.md)
-      3. NFS
+      3. [NFS](txt/Linux-server/nfs.md)
   5. [Supervisor](txt/Linux-server/supervisor.md)
   6. [Node.js](txt/Linux-server/node-js.md)
       1. [Verdaccio](txt/Linux-server/verdaccio.md) - prywatne repozytorium NPM
+  7. Bieżąca administracja siecią
+      1. [Netcat](txt/Linux-server/netcat.md)
+      2. [Netstat](txt/Linux-server/netstat.md)
 * Markup
   * MarkDown
     * [Formatowanie tekstu](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
     * [Format tabel](https://help.github.com/articles/organizing-information-with-tables/)
   * [YAML](txt/yaml.md)
+* Postgresql
+  * [Przepisy](txt/Postgres/Przepisy.md)
 * Symfony
   * [Composer](./Symfony/Composer.md)
   * EasyAdmin

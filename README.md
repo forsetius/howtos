@@ -34,6 +34,7 @@
     * [Format tabel](https://help.github.com/articles/organizing-information-with-tables/)
   * [YAML](txt/yaml.md)
 * Postgresql
+  * [SQL](txt/Postgres/SQL.md)
   * [Przepisy](txt/Postgres/Przepisy.md)
 * Symfony
   * [Composer](./Symfony/Composer.md)

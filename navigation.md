@@ -26,6 +26,8 @@
   * [YAML](txt/yaml.md)
 
 [SQL]()
+  * [Solutions 1](txt/SQL/Insert-update.md)
+  * [Solutions 2](txt/SQL/Przepisy.md)
 
 [DevOps]()
 

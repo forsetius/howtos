@@ -4,28 +4,36 @@
 [PHP]()
 
   * # Język
-  - [Composer](txt/Intro/Wprowadzenie-do-swiata.md)
+  * [Ficzery](txt/PHP/Features.md)
   - - - -
   * # Symfony
-  * [Motywy przewodnie](txt/Intro/Motywy-przewodnie.md)
+  * [Composer](txt/Symfony/Composer.md)
+  * [Różne](txt/Symfony/Misc.md)
   - - - -
   * # Twig
-  * [Rozszerzenia i filtry](txt/Symfony/Twig/Rozszerzenia-i-filtry.md)
   * [Zmienne globalne](txt/Symfony/Twig/Zmienne-globalne.md)
 
-[Node.js]()
+[JavaScript]()
 
-  * # Język
-  * # Nest.js
+  * # JavaScript
+  * [Obiekty](txt/Node.js/Obiekty.md)
+  * [Tablice](txt/Node.js/Tablice.md)
+  * # TypeScript
+  * [Zmienne](txt/Node.js/Zmienne.md)
+  * [Typy proste](txt/Node.js/Typy-proste.md)
+  * [Interfejsy](txt/Node.js/Interfejsy.md)
 
 [Markup]()
+
   * # MarkDown
   * [Formatowanie tekstu](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
   * [Format tabel](https://help.github.com/articles/organizing-information-with-tables/)
   - - - -
+  * # YAML
   * [YAML](txt/yaml.md)
 
 [SQL]()
+
   * [Solutions 1](txt/SQL/Insert-update.md)
   * [Solutions 2](txt/SQL/Przepisy.md)
 
@@ -35,6 +43,7 @@
   * [Deploy](txt/Atlas/Uklad-Sloneczny/Sol.md)
 
 [Linux]()
+
   * # Pakiety
   * [APT Cacher](txt/Linux-server/apt-cacher.md)
   - - - -
@@ -56,4 +65,4 @@
   - - - -
   * # Inne serwery
   * [Supervisor](txt/Linux-server/supervisor.md)
-  * [Verdaccio](txt/Linux-server/verdaccio.md) - prywatne repozytorium NPM
+  * [Verdaccio](txt/Linux-server/verdaccio.md)

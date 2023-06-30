@@ -1,0 +1,10 @@
+{
+  "spellcheckLanguages": [
+    "pl",
+    "en"
+  ],
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./files"
+}

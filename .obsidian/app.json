@@ -1,0 +1,11 @@
+{
+  "spellcheckLanguages": [
+    "pl",
+    "en"
+  ],
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "img",
+  "showInlineTitle": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
+}

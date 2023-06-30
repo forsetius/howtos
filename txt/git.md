@@ -12,9 +12,9 @@ Założenie lokalnego repozytorium w danym katalogu:
 git init
 ```
 
-Sklonowanie repozytorium czyli rozpoczęcie pracy - założenie lokalnego repo i ściągnięcie plików. Tworzy połączenie (remote) ze zdalnym repozytorium o nazwie "origin".
+Sklonowanie repozytorium czyli rozpoczęcie pracy - założenie lokalnego repo i ściągnięcie plików. Tworzy połączenie (remote) ze zdalnym repozytorium o nazwie "origin". Jeśli nie podano `dir_name` to repo jest tworzone w katalogu o nazwie wziętej z nazwy repozytorium.
 ```bash
-git clone <repo>
+git clone <repo> [dir_name]
 ```
 
 Formaty definicji repozytorium:

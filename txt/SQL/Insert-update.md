@@ -9,6 +9,7 @@ cast(extract(epoch from current_timestamp + '2 years') as integer)
 ```
 
 ## Temporary tables
+
 ### Create from selected data
 ```sql
 CREATE TEMP TABLE temp_users AS
@@ -39,6 +40,7 @@ INSERT INTO "Users" SELECT * FROM temp_users;
 ```
 
 ## Update JSON column
+
 ### Set value if key exists
 ```sql
 UPDATE user_rights

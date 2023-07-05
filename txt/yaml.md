@@ -1,4 +1,6 @@
 # YAML
+## References
+
 ### Generate a reference
 ```
 mammal: &mammal_ref
@@ -11,14 +13,14 @@ mammal: &mammal_ref
 beaver: *mammal_ref
 ```
 
-# Define including a hash merge
+### Define including a hash merge
 ```
 otter:
     cute: true
     <<: *mammal_ref
 ```
 
-# Define including a hash merge, overriding a value in the reference
+### Define including a hash merge, overriding a value in the reference
 ```
 platypus:
     <<: *mammal_ref

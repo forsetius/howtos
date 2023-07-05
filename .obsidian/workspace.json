@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "txt/Docker/Dockerfile practices.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "txt/Docker/Dockerfile practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "txt/Docker/Dockerfile practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "txt/Docker/Dockerfile practices.md"
               }
             }
           }
@@ -149,19 +149,33 @@
   },
   "active": "2fe56736f5979357",
   "lastOpenFiles": [
-    "txt/git.md",
+    "txt/Docker/Dockerfile.md",
+    "txt/Docker/Dockerfile practices.md",
     "txt/SQL/Insert-update.md",
-    "txt/JavaScript",
-    "txt/SQL/Przepisy.md",
+    "txt/yaml.md",
+    "txt/git.md",
+    "txt/Linux/sudo.md",
+    "txt/Linux/ssh.md",
+    "txt/Linux/netcat.md",
+    "txt/Linux/alternatives.md",
+    "txt/Linux/Services/verdaccio.md",
+    "txt/Linux/Services/supervisor.md",
+    "txt/Linux/Services/samba.md",
+    "txt/Linux/Services/php.md",
+    "txt/Linux/Services/nginx.md",
+    "txt/Linux/Services/gitlab.md",
+    "txt/Linux/Services/apt-cacher.md",
+    "txt/Linux/Services/apache.md",
+    "txt/PHP/Symfony/Composer.md",
     "txt/PHP/Funkcje-anonimowe.md",
-    "txt/PHP/Features.md",
+    "txt/PHP/Symfony/Misc.md",
     "txt/PHP/Generatory.md",
     "index.md",
-    "txt/Linux/Services/apache.md",
-    "txt/Linux/alternatives.md",
+    "txt/Docker/Docker.md",
+    "txt/JavaScript",
+    "txt/SQL/Przepisy.md",
+    "txt/PHP/Features.md",
     "txt/Linux/Services",
-    "txt/Linux/Services/gitlab.md",
-    "txt/yaml.md",
     "navigation.md"
   ]
 }

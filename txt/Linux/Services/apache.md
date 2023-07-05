@@ -1,5 +1,6 @@
 # Apache2
-#### Serwer WWW
+
+> Serwer WWW
 
 ## Użycie
 - Włącz, wyłącz, zatrzymaj i włącz, status:
